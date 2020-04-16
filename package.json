@@ -1,0 +1,32 @@
+{
+  "name": "komminikater",
+  "version": "0.0.1",
+  "description": "A lightweight live video calling and screen sharing app.",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://swivro.net"
+  },
+  "keywords": [
+    "LiveStream",
+    "Server"
+  ],
+  "author": "Swivro <webmaster@swivro.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://swivro.net"
+  },
+  "homepage": "https://swivro.net"
+}
